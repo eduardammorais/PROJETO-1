@@ -1,0 +1,71 @@
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: #70a99b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #477c70;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.boas-vindas {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+}
+
+.card h3 {
+    color: #477c70;
+}
+
+.card a {
+    background-color: #70a99b;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #477c70;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
